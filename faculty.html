@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty Members</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    .button {
+ border: none;
+ color: white;
+ padding: 8px 16px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 18px;
+ margin: 4px 2px;
+ transition-duration: 0.4s;
+ cursor: pointer;
+}
+.exit {
+ background-color: red; 
+ color: white; 
+ 
+ border-radius: 20px;
+}
+img {
+    border-radius: 40%;
+    border: 1px solid #ddd;
+    padding: 5px;
+  width: 200px;
+}
+
+.content {
+		padding:20px;
+        width: 350px;}
+
+
+</style>
+<body>
+    <header>
+        <h1>Faculty Members</h1>
+        <button class="button exit" onclick="window.location.href='index.html'">Back</button>
+    </header>
+
+    <main>
+        <section id="faculty">
+            <div class="faculty-list">
+                <!-- Example Faculty Member -->
+                <div class="faculty-item">
+                    <img src="images/carey.PNG" alt="Faculty Member 1">
+                    <div class="content">
+                        <h2>DIRECTOR</h2>
+                        <h3>Carey Lalrinawma Sailo</h3>
+                        <p>A ni hi alsjdfaskld a lsadkjfaksdfaklsd a skdjfalksdf alksdjfa 
+                        sdlkjf asdkljf laskdf fasjkdf ajksdh fjkasdh fkjads</p>
+                         
+                        <img src="images/lsa.PNG" alt="Faculty Member 1">
+                        <h2>FACULTY</h2>
+                        <h3>Lallawmsanga Kawlni</h3>
+                        <p>A ni hi alsjdfaskld a lsadkjfaksdfaklsd a skdjfalksdf alksdjfa 
+                        sdlkjf asdkljf laskdf fasjkdf ajksdh fjkasdh fkjads</p>
+                    </div>
+                </div>           
+                <!-- Add more faculty members as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Computer Training Institute</p>
+    </footer>
+</body>
+</html>

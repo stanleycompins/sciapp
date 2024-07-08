@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theory Notes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+     .button {
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #008CBA;
+  border-radius: 20px; 
+  color: white; 
+  border: 2px solid white ;
+}
+
+.exit {
+ background-color: red; 
+ color: white; 
+  border-radius: 20px;
+}
+
+ .home {
+ background-color: blue; 
+ color: white; 
+ border-radius: 20px;
+}
+
+</style>
+<body>
+    <header>
+        <h1>Syllabus & Notes</h1>
+    </header>
+    <button class="button exit" onclick="window.location.href='index.html'">Back</button>
+      
+    <main>
+        <section id="notes">
+            <div class="notes-list">
+                <!-- Example Note -->
+                <div class="note-item">
+                    <h2>Notes In PDF</h2>
+                    <p>Theory note kan siam dan hi DCA 1st Sem Syllabus hi kim chang si, tawi thei ang
+                        berin hmun khatah siam ani a. A hnuaiah hian Exam Questions Paper, Session khat te te a
+                        chhanna dah hran leh ani a. I mamawh dan zelin i lo en in i lo download ve mai dawn ania.    
+                    </p>
+                    <button class="button button1" onclick="window.location.href='notes/Main.pdf'">Main Notes</button>
+                    <button class="button button1" onclick="window.location.href='notes/JanJun2021.pdf'">Jan-Jun 2021</button>
+                    <button class="button button1" onclick="window.location.href='notes/JulyDec2021.pdf'">JulyDec2021</button>
+                    <button class="button button1" onclick="window.location.href='notes/JanJun2022.pdf'">Jan-Jun 2022</button>
+                </div>
+                <!-- Add more notes as needed -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Computer Training Institute</p>
+    </footer>
+</body>
+</html>
